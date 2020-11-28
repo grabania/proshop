@@ -4,13 +4,13 @@ import Footer from "./components/Footer"
 
 const App = () => {
   return (
-    <>
+    <Router>
       <Header />
       <main>
         <h1>Welcome to ProShop</h1>
       </main>
       <Footer />
-    </>
+    </Router>
   )
 }
 
